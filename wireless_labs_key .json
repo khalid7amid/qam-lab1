@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "wireless-labs",
+  "private_key_id": "f328ccda098a2a644bf6c653a52d76881805ce03",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDUZTGXxwa6Ds/u\nzcvx2/gdrhJdJ3Vffy/p7ooEdzPBTO67ZDQyl9c/kQ3nVfNLdUejglyHHxy3bt+J\nyg1taxY7/gMWMj5QZMSEcShWgMqIm5tF1B7uouhNLJZJ9MXDxf/DIoxtkSWRN6/C\nm9GX2JxgtweqDjXFvwkDJZTb7SxHvCUvfI2aeimVP6BLMYxj3V917XaaQRLU+8VF\n0Gb0CX1d8/fZl1G7VSTEWglUBu3HE3JwnRp3TEJp+3UCrAbR95IzEWl7sRr0QvFm\nQ+lc5FawFXVVGUwfSHp5G1lPKYd4N4gOB27n3/qKuAkfjRv3LGjGkq/Wrx/MxM4l\n6GAD7ahhAgMBAAECggEACm6/PSoA0EiXX+H9utWn5Ge4x2WZFAWoNPCxsjioTKR6\np3uFCthYsZ3ufABfSnbdlXaUrlIFAMeYtRwJ685FeDeCYrRsfI0IKbJxnX1Tzw3I\nCZzuBge8RF1eM0GRwz62N0xuCTKGqpFJkbp1bmSstB1zA9N3dbNr/gET3kRrykj1\neBuU+3cw6bp0b6nzRCp/Z0mEDBoX1UXHn4DGwEY1ZthyjjM4N4lfCTbiHocuXVU4\nCXQUGqLwH7yZcClN7/+iuTmvDn7wk8Pzo2a5hOT68kfRH3AxyUtOWVBfQZczoKtJ\noOdsdxPsF/OOi1HEQAuisH2qImo9AW8dcJ6GV6doiQKBgQD++H2Plu8hdJMsiBHS\n8MAtgYqKc2LGzV1s35JrfyEJ4W966tcYGQ8J0kS63NuXlZaUSUwYl+k3bPuVZsmc\ny+rKYSJgiwo5odQoPTgNrB0bkVPB7j+gbz1/Yxd2XGmMTbmhVvUOgvyhVOt9GRR3\nGuTqoY7xzsm52rMO3lRHtL+urQKBgQDVQLO46RZOYPboGSvhpf9Jv/QuQoQe1I3m\nWn0CfZp0X25jSjT9psKQiG6qnFDHHkB8kfuHZwOVd764afyiPWbVUZA34q33z7Tr\nO5QjnJpLvnpuDyoNi2PpGo3t0HpU1Ud5aopXzBriH4EJu5z7RZBiBbeUMbZx4Ge1\nS+Q+Xy8bBQKBgQDXfnGw0GJfpkVVV9Oosu3aCChth8QuPhf+Ep+P1yy3Sx+Lhbwx\nk8xQArUwMcYuwbE4txJnnszvmV6xEOTJbteMILiLXDhSKWJEeClN9O/NAvEFcTW5\nhQs3BSspUEWs3WxM3k/T6gVW3Y0CeBYB7GsZm15TJPD98cdwg5w71ppDKQKBgDvO\npZjaZhMdRqHZTWE/eNVqLEU9CmjLG/Dat+yW5VZ13TOjgDETL8XxPXhD1rPBXDyT\nhIN49JxatPZrYxrtNYXmFhhWTowNiKPgVa+XH/7WMOflANpDmYWqmNt1eJmKJz16\nD8qHx5JbW4krQN+HpvKWv+Gj/5L4aJ2D50NG1qMxAoGAU7obgyRUm/mndEVtKzjQ\nepb2GdOXYljnvrR4zOfOvY/so1/OJFVGm5bYWUkN7Q+twPM1DA7p1olDBAeg82rF\nWLQKMJtCosdT5LiXPUXmJcPUY/hmcLS8GHegTE0sYkEFZ7s1GUqGLylt0Qv1g5t1\nYUyn7y0Gp+kScOuNnD1iVBQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "streamlit-writer@wireless-labs.iam.gserviceaccount.com",
+  "client_id": "117711106426931393487",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/streamlit-writer%40wireless-labs.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
