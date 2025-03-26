@@ -3,12 +3,13 @@ import hashlib
 import gspread
 import json
 from datetime import datetime
-from oauth2client.service_account import ServiceAccountCredentials
+import json
+from google.oauth2.service_account import Credentials
 
 # إعداد Google Sheets
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
 creds_dict = json.loads(st.secrets["gcp_service_account"])
-creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict)
+creds = Credentials.from_service_account_info(creds_dict, scopes=scope)
 client = gspread.authorize(creds)
 sheet = client.open_by_url("https://docs.google.com/spreadsheets/d/1eTeNcXALoIqqaKwEa4bmTd3RZLYpQisTyjNfQ89zroI/edit").sheet1
 
