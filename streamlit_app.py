@@ -1,16 +1,18 @@
-
 import streamlit as st
 import hashlib
 import gspread
+import json
 from datetime import datetime
 from oauth2client.service_account import ServiceAccountCredentials
 
 # إعداد Google Sheets
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name("wireless_labs_key.json")
+creds_dict = json.loads(st.secrets["gcp_service_account"])
+creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict)
 client = gspread.authorize(creds)
 sheet = client.open_by_url("https://docs.google.com/spreadsheets/d/1eTeNcXALoIqqaKwEa4bmTd3RZLYpQisTyjNfQ89zroI/edit").sheet1
 
+# إعداد Google Sheets
 st.set_page_config(page_title="Interactive Wireless Lab", layout="centered")
 st.title("🧪 Wireless Communication Interactive Lab")
 st.subheader("🎓 Back-to-Back 16-QAM | Lab 1")
